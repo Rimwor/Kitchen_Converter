@@ -1,5 +1,4 @@
-<img width=“964” src=“https://raw.githubusercontent.com/Rimwor/Kitchen_Converter/main/collage.png">
-
+https://raw.githubusercontent.com/Rimwor/Kitchen_Converter/main/collage.png
 # Kitchen_Converter
 Develop an An Application Android - Afpa, Caen 2021
  

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Kitchen Converter</string>
+
+    <!-- MAIN -->
+    <string name="kitchen_converter_logo">Kitchen Converter Logo</string>
+    <string name="kitchen_converter">Kitchen Converter</string>
+    <string name="info_image">Info Image</string>
+    <string name="quit_image">Quit Image</string>
+    <string name="table">TABLE</string>
+    <string name="table_image">Table Image</string>
+    <string name="convert">CONVERT</string>
+    <string name="convert_image">Convert Image</string>
+    <string name="back">BACK</string>
+
+    <!-- QUIT alert window -->
+    <string name="quit_question">Are You sure You want to proceed further?</string>
+    <string name="no">No</string>
+    <string name="quit_no">Uff ... We\'re happy that you changed your mind ^_^</string>
+    <string name="yes">Yes</string>
+
+    <!-- INFO alert window -->
+    <string name="info">"Version: 1.0_04112021
+                        \nAuthor: Beata Krzyżosiak (Rimwor)
+                        \nFor: AFPA -  Caen - France
+                        \nProject supervisor: Damien Bin
+                        \nContact: kitchen_converter@gmail.com"</string>
+    <string name="info_quit">Close</string>
+    <string name="info_quit_msg">Hope that these informations were useful</string>
+
+    <!--  TABLE  -->
+    <string name="download">Download Image</string>
+    <string name="table_img">table_img</string>
+    <string name="string_table_img">string_table_img</string>
+    <string name="header_img">header_img</string>
+    <string name="msg_downloading">"Downloading started ... "</string>
+
+    <!-- CONVERT -->
+    <string name="from">From :</string>
+    <string name="to">To :</string>
+    <string name="enter_an_amount">Enter an amount</string>
+    <string name="convert_do_action">Convert</string>
+    <string name="result"></string>
+
+    <!-- ERROR MESSAGES -->
+    <string name="err_init_unit">You need to choose the first unit</string>
+    <string name="err_final_unit">You need to choose the second unit</string>
+    <string name="err_double">Units can\'t be the same</string>
+    <string name="err_amount">You need to insert a number</string>
+    <string name="result_txt">Result :</string>
+
+</resources>

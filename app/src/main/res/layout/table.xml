@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ver">
+
+
+    <ImageView
+        android:id="@+id/headerimg"
+        android:contentDescription="@string/header_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="521dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/scrollviewtab"
+        app:srcCompat="@drawable/kitchen_converter2" />
+
+    <ScrollView
+        android:id="@+id/scrollviewtab"
+        android:layout_width="410dp"
+        android:layout_height="486dp"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <ImageView
+            android:id="@id/imgtable"
+            android:contentDescription="@string/string_table_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:orientation="vertical"
+            app:srcCompat="@drawable/imgtable"
+            tools:ignore="ImageContrastCheck" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bauhs_93"
+        android:onClick="clickView"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollviewtab"
+        tools:ignore="TextContrastCheck,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/bauhs_93"
+        android:onClick="back"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollviewtab"
+        tools:ignore="TextContrastCheck,UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ver"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/kitchenconv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/kitchen_converter"
+        app:layout_constraintBottom_toTopOf="@+id/imgtable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kitchenconvlogo"
+        app:srcCompat="@drawable/kitchen_converter1" />
+
+    <ImageView
+        android:id="@+id/kitchenconvlogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/kitchen_converter_logo"
+        app:layout_constraintBottom_toTopOf="@+id/kitchenconv"
+        app:layout_constraintEnd_toStartOf="@+id/quit_image"
+        app:layout_constraintStart_toEndOf="@+id/info_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngeggd" />
+
+    <ImageView
+        android:id="@+id/imgtable"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/table_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="table"
+        app:layout_constraintBottom_toTopOf="@+id/btn_table"
+        app:layout_constraintEnd_toStartOf="@+id/btn_convert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kitchenconv"
+        app:srcCompat="@drawable/clipart2025014b"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imgconvert"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/convert_image"
+        android:onClick="convert"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgtable"
+        app:layout_constraintTop_toBottomOf="@+id/btn_convert"
+        app:srcCompat="@drawable/clipart1847155b" />
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="59dp"
+        android:fontFamily="@font/bauhs_93"
+        android:onClick="convert"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/convert"
+        app:iconTint="#B68B8B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgtable"
+        app:layout_constraintTop_toBottomOf="@+id/kitchenconv"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/bauhs_93"
+        android:onClick="table"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/table"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgtable"
+        app:layout_constraintStart_toStartOf="@+id/imgtable"
+        app:layout_constraintTop_toBottomOf="@+id/imgtable"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/quit_image"
+        android:layout_width="74dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="quit"
+        android:contentDescription="@string/quit_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kitchenconvlogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <ImageView
+        android:id="@+id/info_image"
+        android:layout_width="69dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="info"
+        android:contentDescription="@string/info_image"
+        app:layout_constraintEnd_toStartOf="@+id/kitchenconvlogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Konwertor Kuchenny</string>
+
+    <!-- MAIN -->
+    <string name="kitchen_converter_logo">Konwertor Kuchenny Logo</string>
+    <string name="kitchen_converter">Konwertor Kuchenny</string>
+    <string name="info_image">Info Obraz</string>
+    <string name="quit_image">Wyjście Obraz</string>
+    <string name="table">TABELA</string>
+    <string name="table_image">Tabela Obraz</string>
+    <string name="convert">KONWERTUJ</string>
+    <string name="convert_image">Konwertuj Obraz</string>
+    <string name="back">POWRÓT</string>
+
+    <!-- QUIT alert window -->
+    <string name="quit_question">Jeteś pewien, że chcesz potwierdzić akcję?</string>
+    <string name="no">Nie</string>
+    <string name="quit_no">Uff ... Cieszymy się, że zmieniłeś zdanie ^_^</string>
+    <string name="yes">Tak</string>
+
+    <!-- INFO alert window -->
+    <string name="info">"Wersja 1.0_04112021
+                        \nAutor: Beata Krzyżosiak (Rimwor)
+                        \nDla: AFPA -  Caen - France
+                        \nOpiekun: Damien Bin
+                        \nKontakt: kitchen_converter@gmail.com"</string>
+    <string name="info_quit">Zamknij</string>
+    <string name="info_quit_msg">Mamy nadzieję, że te informacje były przydatne</string>
+
+    <!--  TABLE  -->
+    <string name="download">Pobierz Obraz</string>
+    <string name="table_img">table_img</string>
+    <string name="string_table_img">string_table_img</string>
+    <string name="header_img">header_img</string>
+    <string name="msg_downloading">"Pobieranie rozpoczęło się ... "</string>
+
+    <!-- CONVERT -->
+    <string name="from">Z :</string>
+    <string name="to">Na :</string>
+    <string name="enter_an_amount">Wprowadź wartość</string>
+    <string name="convert_do_action">Konwertuj</string>
+    <string name="result"></string>
+
+    <!-- ERROR MESSAGES -->
+    <string name="err_init_unit">Musisz wybrać pierwszą miarę</string>
+    <string name="err_final_unit">Musisz wybrać drugą miarę</string>
+    <string name="err_double">Wybrane miary nie mogą być identyczne</string>
+    <string name="err_amount">Musisz wprowadzić wartość</string>
+    <string name="result_txt">Wynik :</string>
+
+</resources>

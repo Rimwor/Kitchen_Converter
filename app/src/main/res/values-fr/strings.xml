@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Convertisseur De Cuisine</string>
+
+    <!-- MAIN -->
+    <string name="kitchen_converter_logo">Convertisseur De Cuisine Logo</string>
+    <string name="kitchen_converter">Convertisseur De Cuisine</string>
+    <string name="info_image">Info Image</string>
+    <string name="quit_image">Quitte Image</string>
+    <string name="table">TABLE</string>
+    <string name="table_image">Table Image</string>
+    <string name="convert">CONVERTIR</string>
+    <string name="convert_image">CONVERTIR Image</string>
+    <string name="back">RETOUR</string>
+
+    <!-- QUIT alert window -->
+    <string name="quit_question">Êtes-vous sûr de vouloir continuer?</string>
+    <string name="no">Non</string>
+    <string name="quit_no">Uff ... Nous sommes heureux que vous ayez changé d\'avis ^_^</string>
+    <string name="yes">Oui</string>
+
+    <!-- INFO alert window -->
+    <string name="info">"Version: 1.0_04112021
+                        \nAuteur: Beata Krzyżosiak (Rimwor)
+                        \nPour: AFPA -  Caen - France
+                        \nChef de projet: Damien Bin
+                        \nContact: kitchen_converter@gmail.com"</string>
+    <string name="info_quit">Fermez</string>
+    <string name="info_quit_msg">On espère que ces informations ont été utiles</string>
+
+    <!--  TABLE  -->
+    <string name="download">Télécharger l\'Image</string>
+    <string name="table_img">table_img</string>
+    <string name="string_table_img">string_table_img</string>
+    <string name="header_img">header_img</string>
+    <string name="msg_downloading">"Le téléchargement a commencé..."</string>
+
+    <!-- CONVERT -->
+    <string name="from">De :</string>
+    <string name="to">À :</string>
+    <string name="enter_an_amount">Entrez un montant</string>
+    <string name="convert_do_action">Convertir</string>
+    <string name="result"></string>
+
+    <!-- ERROR MESSAGES -->
+    <string name="err_init_unit">Vous devez choisir la première unité</string>
+    <string name="err_final_unit">Vous devez choisir la deuxième unité</string>
+    <string name="err_double">Les unités ne peuvent pas être les mêmes</string>
+    <string name="err_amount">Vous devez insérer un nombre</string>
+    <string name="result_txt">Résultat :</string>
+
+</resources>

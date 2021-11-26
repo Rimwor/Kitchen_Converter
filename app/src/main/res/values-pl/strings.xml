@@ -17,6 +17,7 @@
     <string name="no">Nie</string>
     <string name="quit_no">Uff ... Cieszymy się, że zmieniłeś zdanie ^_^</string>
     <string name="yes">Tak</string>
+    <string name="units_spinner">Wybór jednostki z listy</string>
 
     <!-- INFO alert window -->
     <string name="info">"Wersja 1.0_04112021

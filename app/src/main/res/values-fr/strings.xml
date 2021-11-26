@@ -11,6 +11,7 @@
     <string name="convert">CONVERTIR</string>
     <string name="convert_image">CONVERTIR Image</string>
     <string name="back">RETOUR</string>
+    <string name="units_spinner">Choix des unités</string>
 
     <!-- QUIT alert window -->
     <string name="quit_question">Êtes-vous sûr de vouloir continuer?</string>

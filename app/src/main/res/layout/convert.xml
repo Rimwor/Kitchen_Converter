@@ -21,45 +21,46 @@
         android:id="@+id/to"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
         android:text="@string/to"
         android:textColor="#616161"
-        app:layout_constraintEnd_toStartOf="@+id/spinner_to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kitchen_converter" />
 
     <Spinner
         android:id="@+id/spinner_to"
-        android:layout_width="0dp"
-        android:layout_height="51dp"
+        android:layout_width="374dp"
+        android:layout_height="49dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="51dp"
+        android:contentDescription="@string/units_spinner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/to"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_from" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
+        android:layout_marginTop="124dp"
         android:text="@string/from"
-        app:layout_constraintEnd_toStartOf="@+id/spinner_from"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/spinner_from"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <Spinner
         android:id="@+id/spinner_from"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="50dp"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/units_spinner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/from"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/from" />
 
     <Button
         android:id="@+id/button"
@@ -82,7 +83,7 @@
         android:id="@+id/enter_an_amount"
         android:layout_width="297dp"
         android:layout_height="58dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="68dp"
         android:ems="10"
         android:hint="@string/enter_an_amount"
@@ -100,7 +101,7 @@
         android:layout_marginBottom="96dp"
         android:text="@string/result"
         android:textColor="@color/black"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -130,6 +131,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="76dp"
         android:text="@string/result_txt"
+        android:textColor="#616161"
         app:layout_constraintBottom_toTopOf="@+id/back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
